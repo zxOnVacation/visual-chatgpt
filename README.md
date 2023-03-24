@@ -1,4 +1,4 @@
-# Visual ChatGPT 
+# Visual ChatGPT
 
 **Visual ChatGPT** connects ChatGPT and a series of Visual Foundation Models to enable **sending** and **receiving** images during chatting.
 
@@ -14,8 +14,8 @@ See our paper: [<font size=5>Visual ChatGPT: Talking, Drawing and Editing with V
 
 ## Updates:
 - We propose the **template** idea in Visual ChatGPT!
-    - A template is a **pre-defined execution flow** that assists ChatGPT in assembling complex tasks involving multiple foundation models. 
-    - A template contains the **experiential solution** to complex tasks as determined by humans. 
+    - A template is a **pre-defined execution flow** that assists ChatGPT in assembling complex tasks involving multiple foundation models.
+    - A template contains the **experiential solution** to complex tasks as determined by humans.
     - A template can **invoke multiple foundation models** or even **establish a new ChatGPT session**
     - To define a **template**, simply adding a class with attributes `template_model = True`
 - Thanks to **@ShengmingYin** and **@thebestannie** for providing a template example in `InfinityOutPainting` class (see the following gif)
@@ -23,7 +23,7 @@ See our paper: [<font size=5>Visual ChatGPT: Talking, Drawing and Editing with V
     - Secondly, say `extend the image to 2048x1024` to Visual ChatGPT!
     - By simply creating an `InfinityOutPainting` template, Visual ChatGPT can seamlessly extend images to any size through collaboration with existing `ImageCaptioning`, `ImageEditing`, and `VisualQuestionAnswering` foundation models, **without the need for additional training**.
 - **Visual ChatGPT needs the effort of the community! We crave your contribution to add new and interesting features!**
-<img src="./assets/demo_inf.gif" width="750">
+  <img src="./assets/demo_inf.gif" width="750">
 
 
 ## Insight & Goal:
@@ -32,12 +32,12 @@ wide range of topics. On the other hand, **Foundation Models** serve as **domain
 By leveraging **both general and deep knowledge**, we aim at building an AI that is capable of handling various tasks.
 
 
-## Demo 
+## Demo
 <img src="./assets/demo_short.gif" width="750">
 
-##  System Architecture 
+##  System Architecture
 
- 
+
 <p align="center"><img src="./assets/figure.jpg" alt="Logo"></p>
 
 
@@ -122,9 +122,9 @@ We appreciate the open source of the following projects:
 
 [Hugging Face](https://github.com/huggingface) &#8194;
 [LangChain](https://github.com/hwchase17/langchain) &#8194;
-[Stable Diffusion](https://github.com/CompVis/stable-diffusion) &#8194; 
-[ControlNet](https://github.com/lllyasviel/ControlNet) &#8194; 
-[InstructPix2Pix](https://github.com/timothybrooks/instruct-pix2pix) &#8194; 
+[Stable Diffusion](https://github.com/CompVis/stable-diffusion) &#8194;
+[ControlNet](https://github.com/lllyasviel/ControlNet) &#8194;
+[InstructPix2Pix](https://github.com/timothybrooks/instruct-pix2pix) &#8194;
 [CLIPSeg](https://github.com/timojl/clipseg) &#8194;
 [BLIP](https://github.com/salesforce/BLIP) &#8194;
 
